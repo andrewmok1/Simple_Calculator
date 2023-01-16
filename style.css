@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%; 
+}
+
+html,body {
+    background-color: gray;
+
+}
+
+.header-container {
+    margin-top: 150px;
+    display: flex;
+    display: 1;
+    justify-content: center;
+}
+
+.header {
+    font-size: 64px;
+}
+
+.subtext-container {
+    display: flex;
+    display: 1;
+    justify-content: center;
+}
+
+.subtext{
+    font-size: 32px;
+}
+
+.display-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.display {
+    background-color: rgba(105, 139, 105, 0.5);
+    border: 10px solid black;
+    border-radius: 10px 10px 0 0;
+    width: 298px;
+    height: 60px;
+    font-size: 48px;
+    text-align: right;
+}
+
+.row_1-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    padding: 9px;
+}
+
+.row_2-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    padding: 9px;
+}
+
+.row_3-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    padding: 9px;
+}
+
+.row_4-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+    width: 300px;
+    padding: 9px;
+}
+
+.row_5-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    width: 300px;
+    padding: 9px;
+}
+
+button {
+    max-width: 70px;
+    width: 100%;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 2.5px;
+    cursor: pointer;
+    box-shadow:0px 5px 0px 0px white;
+}
+
+button:active {
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+.Clear {
+    background-color: lightcoral;
+    box-shadow:0px 5px 0px 0px lightcoral;
+    font-weight: bold;
+}
+
+.C:active {
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+
+.Positive_Negative {
+    font-weight: bold;
+}
+
+.Percentage {
+    font-weight: bold;
+}
+
+.Operator {
+    font-weight: bold;
+}
+
+.Equal {
+    background-color: skyblue;
+    box-shadow:0px 5px 0px 0px skyblue;
+    font-weight: bold;
+    max-width: 141px;
+    width: 100%;
+}
+
+.Equal:active {
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
