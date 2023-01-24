@@ -34,8 +34,7 @@ function displayNumber(number) {
     }
 }
 
-//Same as above code. The operator is hidden and stored as an empty string that won't show. It will be highlighted instead
-//on the calculator so user knows what operator he/she pressed
+//Same as above code. The operator is hidden and stored as an empty string that won't show. 
 operator_div.forEach((button) => {
     button.addEventListener ('click',function(e) {
         displayOperator(e.target.textContent);
